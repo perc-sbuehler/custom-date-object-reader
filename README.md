@@ -2,9 +2,9 @@
 
 All the dates are of type Java 8 Instance
 
-*  dateReference : this is a reference to at date object, this can come from the objectPropertyReader when the custom property is a date field
-*  timeZoneOut : this is the time zone in which you want the output to be formatted in
-*  outputFormat : this is the format to output the given time 
+*  **dateReference** : this is a reference to at date object, this can come from the objectPropertyReader when the custom property is a date field
+*  **timeZoneOut** : this is the time zone in which you want the output to be formatted in
+*  **outputFormat** : this is the format to output the given time 
 
 Sample Mapping
 ```
