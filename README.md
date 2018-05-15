@@ -1,6 +1,6 @@
 # custom-date-object-reader
 
-All the dates are of type Java 8 Instance
+All the dates are of type Java 8 Instant
 
 *  **dateReference** : this is a reference to at date object, this can come from the objectPropertyReader when the custom property is a date field
 *  **timeZoneOut** : this is the time zone in which you want the output to be formatted in
