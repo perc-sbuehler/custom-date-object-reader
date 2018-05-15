@@ -1,0 +1,65 @@
+!SESSION 2018-05-15 14:37:24.537 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_161
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -application org.eclipse.tycho.surefire.osgibooter.headlesstest -testproperties C:\workspace_mars\testArchetypesForIndia\custum-date-reader-parent\custom-date-reader-test\target\surefire.properties
+Command-line arguments:  -debug -consolelog -data C:\workspace_mars\testArchetypesForIndia\custum-date-reader-parent\custom-date-reader-test\target\work\data -application org.eclipse.tycho.surefire.osgibooter.headlesstest -testproperties C:\workspace_mars\testArchetypesForIndia\custum-date-reader-parent\custom-date-reader-test\target\surefire.properties
+
+!ENTRY org.eclipse.osgi 4 0 2018-05-15 14:37:25.265
+!MESSAGE Error starting bundle: initial@reference:file:../../
+!STACK 0
+org.osgi.framework.BundleException: A fragment bundle cannot be started: custom-date-reader-test_0.0.1.qualifier [12]
+	at org.eclipse.osgi.framework.internal.core.BundleFragment.startWorker(BundleFragment.java:224)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:300)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startBundle(EclipseStarter.java:1124)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startBundles(EclipseStarter.java:1117)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.loadBasicBundles(EclipseStarter.java:632)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:278)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1426)
+
+!ENTRY org.eclipse.osgi 4 0 2018-05-15 14:37:25.268
+!MESSAGE Error starting bundle: initial@reference:file:../../../../../../Users/sbuehler/.m2/repository/org/eclipse/tycho/org.eclipse.tycho.surefire.junit47/0.26.0/org.eclipse.tycho.surefire.junit47-0.26.0.jar
+!STACK 0
+org.osgi.framework.BundleException: A fragment bundle cannot be started: org.eclipse.tycho.surefire.junit47_0.26.0 [59]
+	at org.eclipse.osgi.framework.internal.core.BundleFragment.startWorker(BundleFragment.java:224)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:300)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startBundle(EclipseStarter.java:1124)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startBundles(EclipseStarter.java:1117)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.loadBasicBundles(EclipseStarter.java:632)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:278)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1426)
+
+!ENTRY org.eclipse.equinox.ds 4 0 2018-05-15 14:37:25.928
+!MESSAGE Could not bind a reference of component PIF Scheduler Default Scheduler. The reference is: Reference[name = DetailedJob, interface = com.perceptivesoftware.pif.scheduler.DetailedJob, policy = dynamic, policy-option = reluctant, cardinality = 0..n, target = null, bind = bindDetailedJob, unbind = unbindDetailedJob, updated = null]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2018-05-15 14:37:25.929
+!MESSAGE Could not bind a reference of component PIF Scheduler Default Scheduler. The reference is: Reference[name = DetailedJob, interface = com.perceptivesoftware.pif.scheduler.DetailedJob, policy = dynamic, policy-option = reluctant, cardinality = 0..n, target = null, bind = bindDetailedJob, unbind = unbindDetailedJob, updated = null]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2018-05-15 14:37:25.929
+!MESSAGE Could not bind a reference of component PIF Scheduler Default Scheduler. The reference is: Reference[name = JobTrigger, interface = com.perceptivesoftware.pif.scheduler.JobTrigger, policy = dynamic, policy-option = reluctant, cardinality = 0..n, target = null, bind = bindTrigger, unbind = unbindTrigger, updated = updateBoundTrigger]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2018-05-15 14:37:25.930
+!MESSAGE Could not bind a reference of component PIF Scheduler Default Scheduler. The reference is: Reference[name = JobTrigger, interface = com.perceptivesoftware.pif.scheduler.JobTrigger, policy = dynamic, policy-option = reluctant, cardinality = 0..n, target = null, bind = bindTrigger, unbind = unbindTrigger, updated = updateBoundTrigger]
+
+!ENTRY org.eclipse.osgi 4 0 2018-05-15 14:37:27.512
+!MESSAGE Bundle custom-date-reader-test_0.0.1.qualifier [12] is not active.
+
+!ENTRY org.eclipse.osgi 4 0 2018-05-15 14:37:27.513
+!MESSAGE Bundle org.eclipse.tycho.surefire.junit47_0.26.0 [59] is not active.

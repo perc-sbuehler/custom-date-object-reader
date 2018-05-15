@@ -1,0 +1,6 @@
+ <cm:dateObjectReader xmlns:cm="http://www.perceptivesoftware.com/pif/mapping/custom">
+     <cm:dateReference>myDate</cm:dateReference>
+     <cm:timeZoneOut>GMT</cm:timeZoneOut>
+     <cm:outputFormat>MM/dd/YYYY</cm:outputFormat>
+ </cm:dateObjectReader>
+ 

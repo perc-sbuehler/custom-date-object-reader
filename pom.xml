@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>customDateReaderParent</groupId>
+    <artifactId>custum-date-reader-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>custum-date-reader-parent</name>
+
+    <parent>
+        <groupId>com.perceptivesoftware.pif</groupId>
+        <artifactId>parent</artifactId>
+        <version>1.5.40</version>
+        <relativePath/>
+    </parent>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>target-platform-configuration</artifactId>
+				<version>${tycho-version}</version>
+				<configuration>
+					<target>
+						<artifact>
+							<groupId>com.perceptivesoftware.connect</groupId>
+							<artifactId>connect.target</artifactId>
+							<!-- To build against PCR 1.0.10, change the version number as in the example below. 
+							     The version number selected should match the target platform selected in Eclipse. -->
+							<!--<version>1.0.10</version>-->
+							<version>1.5.40</version>
+						</artifact>
+					</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	
+    <repositories>
+        <repository>
+            <id>psi-central</id>
+            <name>Public Repositories</name>
+            <url>http://repo.pcr.psft.co/nexus/content/groups/public</url>
+        </repository>
+    </repositories>
+  <modules>
+    <module>custom-date-reader</module>
+    <module>custom-date-reader-test</module>
+  </modules>
+</project>

@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+PCR-Connector-Name: dateReader
+Bundle-Name: dateReader Tests
+Bundle-SymbolicName: custom-date-reader-test
+Bundle-Version: 0.0.1.qualifier
+Fragment-Host: custom-date-reader
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: com.perceptivesoftware.pie.engine.mapping.source;version="1.5.11",
+ com.perceptivesoftware.pie.util.writer;version="[0.0.0,2.0.0)",
+ com.perceptivesoftware.pif.test.junit.categories;version="1.5.11",
+ junit.framework;version="4.10.0",
+ org.custom.date.reader,
+ org.junit;version="4.10.0",
+ org.junit.runner;version="4.10.0",
+ org.mockito;version="1.8.4",
+ org.mockito.runners;version="1.8.4"
+Bundle-Category: Perceptive:PIE:Test

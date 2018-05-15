@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='custom-date-reader' version='0.0.1.201805151923' singleton='false'>
+    <update id='custom-date-reader' range='[0.0.0,0.0.1.201805151923)' severity='0'/>
+    <properties size='4'>
+      <property name='org.eclipse.equinox.p2.name' value='dateReader'/>
+      <property name='maven-groupId' value='customDateReaderParent'/>
+      <property name='maven-artifactId' value='custom-date-reader'/>
+      <property name='maven-version' value='0.0.1-SNAPSHOT'/>
+    </properties>
+    <provides size='4'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='custom-date-reader' version='0.0.1.201805151923'/>
+      <provided namespace='osgi.bundle' name='custom-date-reader' version='0.0.1.201805151923'/>
+      <provided namespace='java.package' name='org.custom.date.reader' version='0.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='11'>
+      <required namespace='java.package' name='com.google.common.base' range='14.0.1'/>
+      <required namespace='java.package' name='com.perceptivesoftware.pie.common.data' range='[0.0.0,2.0.0)'/>
+      <required namespace='java.package' name='com.perceptivesoftware.pie.common.mapping' range='1.5.11'/>
+      <required namespace='java.package' name='com.perceptivesoftware.pie.common.mapping.dependency' range='1.5.11'/>
+      <required namespace='java.package' name='com.perceptivesoftware.pie.common.mapping.input' range='1.5.11'/>
+      <required namespace='java.package' name='com.perceptivesoftware.pie.common.mapping.validation' range='1.5.11'/>
+      <required namespace='java.package' name='com.perceptivesoftware.pie.util.connector' range='[0.0.0,2.0.0)'/>
+      <required namespace='java.package' name='com.perceptivesoftware.pie.util.reader' range='1.5.11'/>
+      <required namespace='java.package' name='com.perceptivesoftware.pif.common.component' range='[0.0.0,2.0.0)'/>
+      <required namespace='java.package' name='com.perceptivesoftware.pif.util' range='[0.0.0,2.0.0)'/>
+      <required namespace='java.package' name='org.slf4j' range='0.0.0'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='custom-date-reader' version='0.0.1.201805151923'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: custom-date-reader&#xA;Bundle-Version: 0.0.1.201805151923&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

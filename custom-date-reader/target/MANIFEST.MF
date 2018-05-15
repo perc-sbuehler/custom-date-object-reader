@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+PCR-Connector-Name: dateReader
+Bundle-SymbolicName: custom-date-reader
+Export-Package: org.custom.date.reader
+Bundle-Name: dateReader
+Bundle-Version: 0.0.1.201805151923
+Bundle-ClassPath: .
+Bundle-Category: Perceptive:Connector
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: com.google.common.base;version="14.0.1",com.perceptive
+ software.pie.common.data;version="[0.0.0,2.0.0)",com.perceptivesoftwa
+ re.pie.common.mapping;version="1.5.11",com.perceptivesoftware.pie.com
+ mon.mapping.dependency;version="1.5.11",com.perceptivesoftware.pie.co
+ mmon.mapping.input;version="1.5.11",com.perceptivesoftware.pie.common
+ .mapping.validation;version="1.5.11",com.perceptivesoftware.pie.util.
+ connector;version="[0.0.0,2.0.0)",com.perceptivesoftware.pie.util.rea
+ der;version="1.5.11",com.perceptivesoftware.pif.common.component;vers
+ ion="[0.0.0,2.0.0)",com.perceptivesoftware.pif.util;version="[0.0.0,2
+ .0.0)",org.slf4j
+Service-Component: OSGI-INF/*.xml
+

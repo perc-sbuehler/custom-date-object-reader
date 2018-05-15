@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: org.custom.date.reader.test.DateObjectReaderTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.106 sec - in org.custom.date.reader.test.DateObjectReaderTest
+testFormatDate(org.custom.date.reader.test.DateObjectReaderLinkTest)  Time elapsed: 0.064 sec
+testSuccessfulSearchConfig(org.custom.date.reader.test.DateObjectReaderLinkTest)  Time elapsed: 0.004 sec
+testMissingParams(org.custom.date.reader.test.DateObjectReaderLinkTest)  Time elapsed: 0.003 sec
+testInvalidTimeZone(org.custom.date.reader.test.DateObjectReaderLinkTest)  Time elapsed: 0.005 sec
+testInvalidDateFormat(org.custom.date.reader.test.DateObjectReaderLinkTest)  Time elapsed: 0.007 sec
+testDateFormat(org.custom.date.reader.test.DateObjectReaderTest)  Time elapsed: 0.006 sec
+testInvalidDateFormat(org.custom.date.reader.test.DateObjectReaderTest)  Time elapsed: 0.004 sec
